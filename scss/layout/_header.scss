@@ -1,0 +1,28 @@
+header {
+    background: $header-background;
+    padding: 30px 0;
+    div {
+       margin-top: 25px; 
+    }
+    * {
+        color: $background-color;
+    }
+    .head {
+        letter-spacing: 1px;
+        word-spacing: 5px;
+    }
+    height: 100vh;
+}
+
+.header-content {
+    height: 100%;
+    @extend .row;
+}
+
+
+.title {
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: $header-title-color;
+    margin-bottom: 10px;
+}
