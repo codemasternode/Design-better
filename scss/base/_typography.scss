@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -9,6 +10,8 @@ h1,h2,h3,h4,h5,h6{
 
 h1 {
     font-size: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -29,6 +32,22 @@ h5 {
 
 h6 {
     font-size: 14px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+i {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .head {

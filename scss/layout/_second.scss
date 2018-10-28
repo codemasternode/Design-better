@@ -1,0 +1,19 @@
+.second {
+    padding: $second-padding;
+    @extend .column;
+}
+
+.second__image-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 10vh;
+}
+
+.second__image {
+    min-width: 200px;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

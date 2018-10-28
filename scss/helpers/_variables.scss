@@ -5,7 +5,10 @@ $secondary-color: rgb(51, 51, 51);
 
 
 //header
-$header-background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+$header-background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../assets/fabian-grohs-597395-unsplash.jpg") no-repeat center;
 $header-title-color: $background-color;
+
+//second
+$second-padding: 40vh 0;
 
 

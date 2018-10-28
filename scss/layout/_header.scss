@@ -1,5 +1,6 @@
 header {
     background: $header-background;
+    background-size: 100%;
     padding: 30px 0;
     div {
        margin-top: 25px; 
@@ -12,13 +13,14 @@ header {
         word-spacing: 5px;
     }
     height: 100vh;
+    max-height: 100vh;
 }
 
 .header-content {
-    height: 100%;
-    @extend .row;
+    position: relative;
+    top: 30%;
+    @extend .column;
 }
-
 
 .title {
     letter-spacing: 3px;
