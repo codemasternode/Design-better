@@ -150,12 +150,13 @@ header {
   margin-bottom: 10px; }
 
 .second {
-  padding: 40vh 0; }
+  padding: 30vh 0; }
 
-.second__image-wrapper {
+.second__images-wrapper {
   position: relative;
   width: 100%;
-  margin: 10vh; }
+  margin: 10vh;
+  height: 30vh; }
 
 .second__image {
   min-width: 200px;
@@ -173,7 +174,9 @@ header {
 
 .nav-wrapper {
   border-top: 1px solid #eeeeee;
-  width: 100%; }
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky; }
 
 .nav__item a {
   font-size: 16px; }
