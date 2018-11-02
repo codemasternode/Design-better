@@ -1,9 +1,9 @@
 .second {
-    padding: $second-padding;
+    @extend .section-padding;
     @extend .column;
 }
 
-.second__images-wrapper {
+.second__image-wrapper {
     position: relative;
     width: 100%;
     margin: 10vh;
@@ -11,10 +11,24 @@
 }
 
 .second__image {
-    min-width: 200px;
-    width: 40%;
-    height: auto;
     position: absolute;
-    left: 0;
+    width: 25vw;
+    min-width: 300px;
+}
+
+.second__image--first {
+    
     top: 0;
+    left: 35%;
+    z-index: 2;
+}
+
+.second__image--second {
+    top: 5vh;
+    left: 15%;
+}
+
+.second__image--third {
+    top: 15vh;
+    left: 60%;
 }

@@ -1,0 +1,9 @@
+.third {
+    @extend .row;
+    @extend .section-padding;
+    max-width: 1400px;
+}
+
+.third__icon {
+    max-width: 200px;
+}
