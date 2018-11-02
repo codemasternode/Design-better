@@ -4,6 +4,26 @@
     max-width: 1400px;
 }
 
+.third__icon-wrapper {
+    @extend .column;
+    min-width: 200px;
+    h3 {
+        margin-top: 30px;
+    }
+    p {
+        max-width: 250px;
+        margin-top: 20px;
+    }
+}
+
 .third__icon {
     max-width: 200px;
+    width: 100%;
+    //border: 2px solid black;
+    &:hover {
+        box-shadow: 0 0 1px 5px $primary-color;
+        cursor: pointer;
+    }
+    padding: 2rem;
+    border-radius: 60px;
 }

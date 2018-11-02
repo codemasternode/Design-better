@@ -1,0 +1,12 @@
+.fourth {
+    @extend .row;
+    @extend .section-padding;
+    display: block;
+    padding-left: 20vw;
+    padding-right: 2vw;
+}
+
+.fourth__left-content {
+    width: 50%;
+    min-width: 600px;
+}
